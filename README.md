@@ -29,7 +29,7 @@
 2. 在分支上修改页面
 3. 发 Pull Request
 4. 合并到 `main`
-5. 合并到 `main` 后由 GitHub Actions 自动部署到 Cloudflare Pages
+5. 合并到 `main` 后由 Cloudflare Pages 原生从 GitHub 拉取并自动部署
 
 ## 发布说明
 
@@ -43,7 +43,8 @@
 
 ## 备注
 
-当前仓库会配置 GitHub Actions，在 `push main` 和 `pull_request` 时触发部署。
+当前仓库保留 GitHub Actions 只做基础校验。
 
-建议后续把当前使用的全局 API Key 替换成单独的 Cloudflare API Token。
+真正的线上部署由 Cloudflare Pages 的 Git 集成完成。
 
+建议后续把当前使用的全局 API Key 替换成单独的 Cloudflare API Token，并逐步清理这次过渡期留下的 Secret。
