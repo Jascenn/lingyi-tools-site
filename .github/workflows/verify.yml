@@ -1,0 +1,26 @@
+name: Verify Site
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Validate required files
+        run: |
+          test -f index.html
+          test -f 404.html
+          test -f _headers
+          test -f assets/dashboard-v0.3.0.png
+
+      - name: Basic content checks
+        run: |
+          grep -q "Lingyi App Watch" index.html
+          grep -q "watch.lingyi.tools" README.md
