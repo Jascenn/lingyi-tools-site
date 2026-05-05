@@ -1,0 +1,26 @@
+# 凌一工具箱 · Lingyi Tools
+
+> AI 工具导航站，收录经过实际使用验证的 AI 编程、写作、设计、效率工具。
+
+## 关于
+
+lingyi.tools 是凌一（Lingyi）整理维护的 AI 工具导航站，只收录真实用过、有实际价值的工具，持续更新。
+
+## 关键页面
+
+- /：工具分类导航首页
+- /coding：AI 编程工具（Claude Code、Cursor、Copilot 等）
+- /writing：AI 写作工具
+- /design：AI 设计工具
+
+## 收录标准
+
+- 经过实际使用验证
+- 有明确的使用场景
+- 非广告收录
+
+## 作者
+
+凌一（Lingyi）整理维护。
+- 个人主页：https://lingyi.bio
+- GitHub：https://github.com/Jascenn
