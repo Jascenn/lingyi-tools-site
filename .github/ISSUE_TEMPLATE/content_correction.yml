@@ -1,0 +1,25 @@
+name: Content correction
+description: Suggest a factual, copy, or link correction
+title: "docs: "
+labels:
+  - documentation
+body:
+  - type: textarea
+    id: current
+    attributes:
+      label: Current content
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Suggested correction
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Supporting evidence
+      description: Link to the source used to verify the correction.
+    validations:
+      required: true
