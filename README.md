@@ -48,3 +48,9 @@
 真正的线上部署由 Cloudflare Pages 的 Git 集成完成。
 
 建议后续把当前使用的全局 API Key 替换成单独的 Cloudflare API Token，并逐步清理这次过渡期留下的 Secret。
+
+## 治理
+
+- 修改前请阅读 [CONTRIBUTING.md](CONTRIBUTING.md)
+- 页面数据与外部请求说明见 [PRIVACY.md](PRIVACY.md)
+- 安全问题请按 [SECURITY.md](SECURITY.md) 私下报告
